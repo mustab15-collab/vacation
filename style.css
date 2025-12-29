@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {background-color: #5a594f20;
+}
+header {
+    background-color: #333d42da;
+  
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+
+}
+header h1 {
+    font-size: 2.5rem;
+}
+section {
+    display: flex;
+    /* height: 100vh; */
+    min-height: 75vh;
+    gap: 20px;
+    padding: 20px;
+
+}
+aside  {justify-content: space-between;
+  
+width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+    padding: 15px;
+    background-color: #b2bec3;
+    
+
+}
+.history {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 80%;
+}
+.history h1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.333);
+
+}
+.sign {
+    text-align: center;
+}
+.sign button {
+ 
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background-color: #747d8c;
+    color: white;
+    cursor: pointer;
+    
+    transition: 0.3;
+
+}
+.sign button:hover{
+    background-color:whitesmoke;
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding:  20px;
+
+}
+.chatarea {
+    flex: 1;
+    background-color: #2d3436a4;
+    border-radius: 10px;
+    padding: 20px;
+    
+    margin-bottom: 10px;
+
+}
+.aimessage{
+    background-color: #f8f9fa;
+    padding: 12px 15px;
+    border-radius: 15px;
+    width: fit-content;
+    max-width: 70%;
+    min-height: ;
+}
+.input {
+    display: flex;
+    gap: 10px;
+}
+
+#quest {flex: 1;
+
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 12px;
+    resize: none;
+
+
+}
+#btn {
+    padding: 12px 20px;
+    
+    background-color: #747d8c;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+footer {
+    width: 100%;
+    background-color: #4f535a;
+    color: whitesmoke;
+    text-align: center;
+    padding: 19px 22px;
+    font-size: 40px;
+    font-weight: bolder;
+ 
+}
